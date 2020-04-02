@@ -27,21 +27,35 @@ p {
     width: 90%;
     background-color: rgb(231, 130, 152);
     height: fit-content;
-    padding: 45px 0px 5px 5px;
     top: 15px;
+    padding: 40px 10px 10px 10px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-span {
+h2 {
     float: right;
-    position: relative;
-    background-color: cyan;
     font-size: 200%;
     font-family: monospace;
-    top: -45px;
     border-radius: 5px;
+    margin: 0px 5%;
+    position: relative;
+    border: 1px solid black;
 }
 
-section {
+#china {
+    background-color: cyan;
+}
+
+#italy {
+    background-color: beige;
+}
+
+#usa {
+    background-color: coral;
+}
+
+#footer {
     text-align: center;
     clear: left;
 }
